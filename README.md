@@ -3,6 +3,7 @@
 ## Introduction
 Tom (<b>T</b>rend <b>o</b>ver <b>M</b>omentum), is an adaptive optimizer that takes into account of the trend which is observed for the gradients in the loss landscape traversed by the neural network. Tom has an additional smoothing equation which is introduced to address the trend observed during the process of optimization. The smoothing parameter introduced for the trend requires no tuning and can be used with default values.
 
+Please see <a href = 'https://arxiv.org/pdf/2109.03820.pdf'>this paper </a> for more details on Tom.
 ## Prerequisites
 - PyTorch == 1.9.0
 
